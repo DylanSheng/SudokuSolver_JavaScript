@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sudoku Solver</title>
+
+    <link rel="stylesheet" type="text/css" href="sudoku.css">
+    <script src="sudoku.js"></script>>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+    <table id="sudokuForm" border="1">
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+
+            <td>
+                <input type="text" value="" size="1">
+            </td>
+        </tr>
+    </table>
+    <input type="button" onclick="myFunction()" value="submit">
+</body>
+
+</html>
