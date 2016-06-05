@@ -24,7 +24,7 @@ function showSolution(board) {
 }
 
 
-function generate(board) {
+function generateSudoku(board) {
     var board = [
         [null, null, '9', '7', '4', '8', null, null, null],
         ['7', null, null, null, null, null, null, null, null],
@@ -36,6 +36,7 @@ function generate(board) {
         [null, null, null, null, null, null, null, null, '6'],
         [null, null, null, '2', '7', '5', '9', null, null]
     ];
+    showSolution(board);
 }
 
 function solveSudokuHelper(board) {
@@ -130,7 +131,7 @@ function isValidSudoku(board) {
     return true;
 }
 
-var clear() {
+function clearSudoku() {
     var board = [
         [null, null, null, null, null, null, null, null, null],
         [null, null, null, null, null, null, null, null, null],
