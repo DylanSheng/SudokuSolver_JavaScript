@@ -1,4 +1,4 @@
-function myFunction() {
+function solveSudoku() {
     var board = new Array(9);
     var table = document.getElementById("sudokuForm");
     var bObject = table.getElementsByTagName("input");
@@ -128,4 +128,19 @@ function isValidSudoku(board) {
     }
 
     return true;
+}
+
+var clear() {
+    var board = [
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null]
+    ];
+    showSolution(board);
 }

@@ -1,8 +1,8 @@
 #sudokuForm {
-    width: 25%;
-    padding: 12px 20px;
+    width: 20%;
     margin: 8px 0;
     box-sizing: border-box;
+    border-collapse: collapse;
 }
 
 #sudokuForm input {
